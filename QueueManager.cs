@@ -51,11 +51,12 @@ namespace UdarProject
         {
             try
             {
+                var assemblyName = Assembly.GetExecutingAssembly().GetName();
                 fileName = Path.Combine(
                     Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData),
                     "Ales'hon'ne",
-                    "Axial2D",
-                    Assembly.GetExecutingAssembly().GetName().Version.ToString(2),
+                    assemblyName.Name,
+                    assemblyName.Version.ToString(2),
                     "errors.log");
                 lock (sync)
                 {

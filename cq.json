@@ -1,0 +1,83 @@
+{
+	"ResultDirectory": "Res\\CQ2",
+	"MaterialFile": "outmat.json",
+	"Items": 
+		[
+			{
+				"Name":				"Test impact {BottomImpactSpeed} mps DT{InstCount}",
+				"InstCount":		4,
+				"SaveAnimation":	true,
+				"AlterTopology":	false,
+				"TimePeriod":		0.001,
+				"TimeStep":			0.0000005,
+				"Fixation":			"free",
+				"OverheadRadius":	24,
+				"BaseRadius":		48,
+				"OverheadHeight":	[24],
+				"BaseHeight":		[24],
+				"FER":				0.05,
+				"FEZ":				0.05,
+				"OverheadMaterials":[1],
+				"BaseMaterials":	[3],
+				"T0":				293.15,
+				"BottomImpactSpeed":5
+			},
+			{
+				"BottomImpactSpeed": 10
+			},
+			{
+				"BottomImpactSpeed": 15
+			},
+			{
+				"BottomImpactSpeed": 20
+			},
+			{
+				"BottomImpactSpeed": 25
+			},
+			{
+				"BottomImpactSpeed": 30
+			},
+			{
+				"BottomImpactSpeed": 35
+			},
+			{
+				"BottomImpactSpeed": 40
+			},
+			{
+				"BottomImpactSpeed": 45
+			},
+			{
+				"BottomImpactSpeed": 50
+			},
+			{
+				"BottomImpactSpeed": 55
+			},
+			{
+				"BottomImpactSpeed": 60
+			},
+			{
+				"BottomImpactSpeed": 65
+			},
+			{
+				"BottomImpactSpeed": 70
+			},
+			{
+				"BottomImpactSpeed": 75
+			},
+			{
+				"BottomImpactSpeed": 80
+			},
+			{
+				"BottomImpactSpeed": 85
+			},
+			{
+				"BottomImpactSpeed": 90
+			},
+			{
+				"BottomImpactSpeed": 95
+			},
+			{
+				"BottomImpactSpeed": 100
+			}
+		]
+}
