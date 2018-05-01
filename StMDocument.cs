@@ -566,7 +566,7 @@ namespace Aleshonne.StM
                 var c = (char)nci;
                 if (start && char.IsWhiteSpace(c)) //ведущие пробелы
                     continue;
-                if (esc && qs) //в строке есть escape-последоватеьлность
+                if (esc && qs) //в строке есть escape-последовательность
                 {
                     esc = false;
                     switch (c)
@@ -606,7 +606,7 @@ namespace Aleshonne.StM
                     start = false;
                     continue;
                 }
-                if (c == '\\' && qs) // начало escape-последоватеьлности
+                if (c == '\\' && qs) // начало escape-последовательности
                 {
                     esc = true;
                     continue;
